@@ -1,0 +1,18 @@
+{
+    "name": "ayocodingit/import-excel-validation",
+    "description": "import excel validation custom",
+    "require": {
+        "php": "^7.2.5"
+    },
+    "authors": [
+        {
+            "name": "ayocodingit",
+            "email": "ayocodingit@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ayocodingit\\MappingMessages\\": "src/"
+        }
+    }
+}
