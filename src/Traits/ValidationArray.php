@@ -1,6 +1,6 @@
 <?php
 
-namespace Ayocodingit\MappingMessages\App\Traits;
+namespace Ayocodingit\MappingMessages\Traits;
 
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\App;
