@@ -319,7 +319,7 @@ class ValidationArray
         if (in_array($uniqueBy, $this->uniqueBy)) {
             $this->setError($this->index, __('validation.unique', ['attribute' => $this->uniqueBy()]));
         } else {
-            $this->sampel[] = $uniqueBy;
+            $this->uniqueBy[] = $uniqueBy;
         }
     }
 }
