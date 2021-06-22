@@ -78,7 +78,7 @@ class ValidationArray
      * @param  mixed $data
      * @return void
      */
-    protected function setData(array $data)
+    public function setData(array $data)
     {
         $this->result['data'][] = $data;
     }
