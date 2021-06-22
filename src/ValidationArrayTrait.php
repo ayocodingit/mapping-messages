@@ -1,12 +1,12 @@
 <?php
 
-namespace Ayocodingit\MappingMessages\Traits;
+namespace Ayocodingit\MappingMessages;
 
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Validator;
 
-trait ValidationArray
+trait ValidationArrayTrait
 {
     /**
      * limit
