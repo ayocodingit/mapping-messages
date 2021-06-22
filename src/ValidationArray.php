@@ -5,6 +5,7 @@ namespace Ayocodingit\MappingMessages;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Collection;
 
 class ValidationArray
 {
@@ -54,7 +55,7 @@ class ValidationArray
      *
      * @var bool
      */
-    protected $isArrayReturn = false;
+    public $isArrayReturn = false;
 
 
     /**
@@ -62,14 +63,14 @@ class ValidationArray
      *
      * @return array
      */
-    protected function rules() {}
+    public function rules() {}
 
     /**
      * uniqueBy
      *
      * @return string|null
      */
-    protected function uniqueBy() {}
+    public function uniqueBy() {}
 
     /**
      * setData
@@ -240,7 +241,7 @@ class ValidationArray
      * @param  mixed $rows
      * @return void
      */
-    protected function validated(array $rows)
+    public function validated(array $rows)
     {
         App::setLocale(App::getLocale());
 
