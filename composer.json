@@ -1,6 +1,6 @@
 {
-    "name": "ayocodingit/import-excel-validation",
-    "description": "import excel validation custom",
+    "name": "ayocodingit/mapping-messages",
+    "description": "Mapping messages validation",
     "require": {
         "php": "^7.2.5"
     },
