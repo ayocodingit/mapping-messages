@@ -1,6 +1,8 @@
 {
     "name": "ayocodingit/mapping-messages",
     "description": "Mapping messages validation",
+    "type": "library",
+    "license": "MIT",
     "require": {
         "php": "^7.2.5"
     },
