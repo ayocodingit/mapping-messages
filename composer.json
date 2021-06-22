@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ayocodingit\\MappingMessages\\": "src/"
+            "Ayocodingit\\MappingMessages\\": "app/"
         }
     },
     "minimum-stability": "dev",
